@@ -15,7 +15,7 @@ class RecipesController < ApplicationController
   end
 
   private
- 
+
   def recipe_params
     params.require(:recipe).permit(:name
     ingredients_attributes: [
