@@ -24,7 +24,7 @@ class RecipesController < ApplicationController
     params.require(:recipe).permit(
     :title,
     ingredients_attributes: [
-     :ingredient_1,
+     :quantity,
      :ingredient_2
    ]
     )
